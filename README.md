@@ -1,5 +1,10 @@
 # FalaAI MCP — Model Context Protocol server for Conversation Intelligence, Speech Analytics & Compliance
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-io.github.ActionTecBr%2Ffalaai--mcp-blue)](https://registry.modelcontextprotocol.io/v0.1/servers?search=falaai-mcp)
+[![Transport: Streamable HTTP](https://img.shields.io/badge/transport-streamable--http-purple.svg)](https://mcp-falaai.action.tec.br/mcp)
+[![API docs](https://img.shields.io/badge/docs-falaai.action.tec.br%2Fapi-lightgrey.svg)](https://falaai.action.tec.br/api)
+
 Official **MCP server** for the **FalaAI API** — plug it into an AI assistant (Gemini, Claude, Cursor, VS Code, …) and let the assistant **transcribe audio, diagnose conversations and audit compliance** from natural language. The analysis tools use the **same `fai_` API key** you already use with the REST API; the `health` tool works **without a key**.
 
 > The assistant calls the FalaAI tools on your behalf. You get speaker-separated transcripts, summaries, reasons, actions, sentiment and a **compliance risk score** — with the same results as the REST API.
@@ -13,6 +18,8 @@ Official **MCP server** for the **FalaAI API** — plug it into an AI assistant 
 | **Transport** | Streamable HTTP (stateless) |
 | **Auth** | `Authorization: Bearer fai_<key>` — **optional** for `health`, **required** for the analysis tools |
 | **Server name** | `FalaAI API` |
+| **Source code** | `https://github.com/ActionTecBr/falaai-mcp` |
+| **API docs** | `https://falaai.action.tec.br/api` |
 
 ## Use any FalaAI API independently
 
