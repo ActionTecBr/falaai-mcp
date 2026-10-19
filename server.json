@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ActionTecBr/falaai-mcp",
+  "title": "FalaAI API (MCP)",
+  "description": "FalaAI API MCP server: transcribe audio, diagnose conversations, audit compliance (ISO 18295-1).",
+  "version": "1.21.67",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-falaai.action.tec.br/mcp"
+    }
+  ]
+}
