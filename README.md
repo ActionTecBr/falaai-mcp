@@ -4,6 +4,7 @@
 [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-io.github.ActionTecBr%2Ffalaai--mcp-blue)](https://registry.modelcontextprotocol.io/v0.1/servers?search=falaai-mcp)
 [![Transport: Streamable HTTP](https://img.shields.io/badge/transport-streamable--http-purple.svg)](https://mcp-falaai.action.tec.br/mcp)
 [![API docs](https://img.shields.io/badge/docs-falaai.action.tec.br%2Fapi-lightgrey.svg)](https://falaai.action.tec.br/api)
+[![FalaAI API (MCP) MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/io.github.ActionTecBr/falaai-mcp/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.ActionTecBr/falaai-mcp)
 
 Official **MCP server** for the **FalaAI API** — plug it into an AI assistant (Gemini, Claude, Cursor, VS Code, …) and let the assistant **transcribe audio, diagnose conversations and audit compliance** from natural language. The analysis tools use the **same `fai_` API key** you already use with the REST API; the `health` tool works **without a key**.
 
